@@ -22,8 +22,7 @@
 }
 .cards{
   background-color: white;
-  /* border: 0ps solid; */
-  /* border-radius: 20rem; */
+
   box-shadow: 10px 5px 5px rgb(239, 235, 235);
 }
 .flow-over{
@@ -39,7 +38,7 @@ background-color: #186a86;
 
 }
 .image{
-  /* background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.25)), url('./assests/doctor.jpg'); */
+  background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.25)), url('./assests/doctor.jpg');
   background-size: cover;
   width: 100%;
   height: 75vh;
@@ -48,53 +47,38 @@ background-color: #186a86;
 
   @media (max-width: 768px) {
     .image {
-      height: 45vh; /* Reduce the height for smaller screens */
+      height: 45vh; 
       background-size: cover;
     }
   
     .image h1 {
-      font-size: 1.5rem; /* Adjust the font size for smaller screens */
+      font-size: 1.5rem; 
     }
   
     .image p {
-      font-size: 1rem; /* Adjust the paragraph font size */
+      font-size: 1rem; 
     }
   }}
 .text{
-  /* box-shadow: 10px 5px 5px rgb(239, 235, 235); */
-  /* background-color: white; */
+
   border: 0px solid;
   border-radius: 1rem;
   padding: 1rem;
-  /* backdrop-filter: drop-shadow(4px 4px 10px rgb(209, 209, 212)); */
-  /* backdrop-filter: blur(80px); */
+
   backdrop-filter: blur(90px);
-  background-color: rgb(227, 225, 225); /* Whitish color with transparency */
+  background-color: rgb(227, 225, 225); 
   background-blend-mode: lighten;
-  /* -webkit-filter: blur(8px); */
+
 
 }
-/* .text{
-  background-color: white;
-  width: 65vw;
-  height: 10rem;
-  display: flex;
-  align-items: center;
-  margin: auto;
-} */
-
 
 
 .bar1{
-  /* background-blend-mode: lighten; */
-  /* backdrop-filter: blur(90px);
-  background-color: rgb(227, 225, 225); /* Whitish color with transparency */
-  /* background-blend-mode: lighten;  */
   width: 55vw;
   margin: auto;
   padding: 1px !important;
   margin-top: 10rem;
-  /* height: 1rem; */
+
 }
 .search-bar input[type="search"] {
   border: none !important;
@@ -105,64 +89,22 @@ background-color: #186a86;
   cursor: pointer;
 }
 .special:hover{
-  /* border:'1px solid blue'; */
+
   border-bottom: 1px solid  #4edbd7;
   cursor: pointer;
 }
-/* .login{ */
-  /* background-color: rgb(191, 187, 187);  */
-  /* padding: 1rem; */
-  /* margin: auto; */
-  /* position: relative; */
-  /* top: 2rem; */
-  /* width: 23vw; */
-  /* border: 1px solid white; */
-  /* margin-top: 5rem; */
-/* } */
-/* .login input[type="email"]{
-  box-shadow: none;
-  border: none;
-  
-}
-.login input[type="password"]{
-  box-shadow: none;
-  border: none;
-}
-.button{
-  margin: auto;
-  margin-top: 1rem;
-  width: 16rem;
-  padding: 0.5rem;
-  color: rgb(234, 221, 221) !important;
-  border: none !important;
-  background-color: rgb(26, 84, 159) !important;
-}
-.bg-login{
-  background-image:  linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.54)),url(./assests/patient.webp);
-  background-size: cover;
-  background-position: center;
-  width: 100vw;
-  height: 100vh;
-
-} */
 .bg-login {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 100vh; */
   padding: 20px;
-  /* background-color: #f8f9fa; Light gray background */
-  /* background-image:  linear-gradient(rgba(122, 119, 119, 0.65),rgba(0,0,0,0.54)),url('./assests/patient.webp'); */
+  background-image:  linear-gradient(rgba(122, 119, 119, 0.65),rgba(0,0,0,0.54)),url('./assests/patient.webp');
   background-size: cover;
   background-position: center;
   width: 100vw;
   height: 100vh;
 }
 
-
-
-
-/* CSS for LoginPage component */
 
 .bg-login {
   display: flex;
@@ -317,7 +259,6 @@ background-color: #186a86;
   text-align: justify;
 }
 
-/* Responsive Design */
 
 @media (max-width: 768px) {
   .title {
@@ -343,10 +284,9 @@ background-color: #186a86;
   }
 }
 
-/* login */
 
 .image-bg1{
-  /* background-image:  linear-gradient(rgba(122, 119, 119, 0.65),rgba(0,0,0,0.54)),url('./assests/patient.webp'); */
+  background-image:  linear-gradient(rgba(122, 119, 119, 0.65),rgba(0,0,0,0.54)),url('./assests/patient.webp');
   background-size: cover;
   background-position: center;    
   background-repeat: no-repeat;
@@ -367,10 +307,10 @@ background-color: #186a86;
 }
 
 .main-head{
-  /* background-image:linear-gradient(rgba(0, 0, 0, 0.18),rgba(0,0,0,0.24)),url('./assests/bgcopy.jpg'); */
+  background-image:linear-gradient(rgba(0, 0, 0, 0.18),rgba(0,0,0,0.24)),url('./assests/bgcopy.jpg');
   background-size: cover; 
-  background-position: center;
-   /* background-repeat: no-repeat;  */
+  background-position: center;;
+   background-repeat: no-repeat; 
    width: 100vw; 
    height: 100vh;
    overflow: hidden;
@@ -378,25 +318,24 @@ background-color: #186a86;
 
 }
 
-/* Remove blue hover effect */
+
 .login-modal .form-control:focus {
   border-color: #186a86;
-  box-shadow: none; /* Removes the blue shadow */
-  outline: none; /* Removes the blue outline */
+  box-shadow: none; 
+  outline: none; 
 }
 
-/* Style form controls */
+
 .login-modal .form-control {
   border-radius: 5px;
   border-color: #186a86;
-  transition: border-color 0.3s ease; /* Smooth transition */
+  transition: border-color 0.3s ease; 
 }
 
-/* Style the select dropdown */
 .login-modal .form-select {
   border-radius: 5px;
   border-color: #186a86;
-  transition: border-color 0.3s ease; /* Smooth transition */
+  transition: border-color 0.3s ease; 
 }
 
 .login-modal .btn-success {
@@ -416,40 +355,38 @@ background-color: #186a86;
   font-size: 0.85rem;
 }
 
-/* Modal header style */
+
 .login-modal .modal-header {
   background-color: #186a86;
   color: white;
 }
 
-/* Modal title style */
+
 .login-modal .modal-title {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-/* General modal body style */
+
 .login-modal .modal-body {
   padding: 2rem;
 }
 
 
-/* signup */
-/*/* Remove blue hover effect */
 button, input, select, textarea {
   outline: none !important;
   box-shadow: none !important;
-  /* outline: black; */
+
 
 }
 
-/* Style the optional fields */
+
 .optional-field {
   display: flex;
   flex-direction: column;
 }
 
-/* General form styles */
+
 input, select, textarea {
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -464,21 +401,18 @@ button {
 }
 
 button:hover {
-  /* background-color: #007bff; */
+
   outline: none !important;
   color: #fff;
 }
 
-/* Style for the modal */
 .modal-content {
   padding: 20px;
 }
 
 .modal-header {
-  /* background-color: #007bff; */
   color: #032d3b;
   font-weight: bold;
-  /* color: #fff; */
   border-bottom: none;
 }
 
@@ -495,19 +429,19 @@ button:hover {
 }
 
 
-/* signup */
 
 
 
 
 
-/* main */
+
+
 .signup-container {
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f8f9fa; /* Light background, adjust as needed */
+  background-color: #f8f9fa; 
   padding: 20px;
 }
 
@@ -531,28 +465,27 @@ form {
 }
 @media (max-width: 576px) {
   .signup-container {
-    padding: 10px; /* Reduce padding */
+    padding: 10px; 
   }
 
   h2 {
-    font-size: 1.5rem; /* Smaller font size for the heading */
-    padding: 10px; /* Reduce padding */
+    font-size: 1.5rem; 
+    padding: 10px; 
   }
 
   form {
-    padding: 15px; /* Reduce form padding */
+    padding: 15px; 
   }
 
   .form-control, .form-select {
-    font-size: 0.875rem; /* Adjust input and select font size */
-    padding: 8px; /* Adjust padding inside inputs */
+    font-size: 0.875rem; 
+    padding: 8px; 
   }
 
   .btn {
-    font-size: 1rem; /* Adjust button font size */
-  }
+    font-size: 1rem; }
 }
-/* Custom styling for the form and doctor cards */
+
 
 .appointment-form {
   background-color: #f8f9fa;
@@ -600,46 +533,43 @@ form {
   }
 }
 
-/* admin */
-/* Container Styling */
+
 .dashboard-container {
   background-color: #f8f9fa;
   padding: 30px;
-  min-height: 100vh; /* Ensure full height coverage */
+  min-height: 100vh; 
 }
 
-/* Card Styling */
 .dashboard-card {
   border: none;
   border-radius: 10px;
   background: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  overflow: hidden; /* To prevent content overflow */
+  overflow: hidden; 
 }
 
-/* Card Hover Effect */
+
 .dashboard-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
-/* Card Title Styling */
+
 .dashboard-card-title {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #343a40; /* Dark color for better readability */
+  color: #343a40; 
   margin-bottom: 15px;
 }
 
-/* Card Text Styling */
 .dashboard-card-text {
   font-size: 1rem;
   color: #6c757d;
   margin-bottom: 20px;
 }
 
-/* Button Styling */
+
 .btn-primary {
   background-color: #007bff;
   border-color: #007bff;
@@ -652,7 +582,7 @@ form {
   border-color: #0056b3;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .dashboard-container {
     padding: 15px;
@@ -665,21 +595,21 @@ form {
   }
 }
 
-/* Card Image (Optional, if you want to add icons or images inside the cards) */
+
 .dashboard-card img {
   width: 65%;
   height: auto;
-  border-radius: 8px 8px 0 0; /* Rounded corners for the top of the card */
+  border-radius: 8px 8px 0 0;
 }
 
-/* DoctorSignupForm*/
+
 
 .doctor-signup-form {
   background-color: #f8f9fa;
-  /* padding: 20px; */
+
   margin-top: 0px !important;
   border-radius: 8px;
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+
 }
 
 .form-control-custom {
@@ -712,11 +642,6 @@ h2 {
 }
 
 
-/* admindashboard */
-/* AdminDashboard.css */
-
-/* Sidebar styling */
-
 .dashboard-container {
   
     margin-top: 0 !important;
@@ -726,35 +651,31 @@ h2 {
   
   margin-top: 0px !important;
   min-height: 100vh;
-  background-color: #f8f9fa; /* Light background for the entire dashboard */
+  background-color: #f8f9fa; 
 }
 
 .sidebar {
   border-radius: 1.5rem;
   margin-top: 0.5rem  !important;
   margin-left: 1rem;
-  background-color: #18191b; /* Dark background for the sidebar */
-  color: #ffffff; /* White text in the sidebar */
-  height: 97vh; /* Full height for sidebar */
-  padding-top: 1rem; /* Space at the top */
+  background-color: #18191b; 
+  color: #ffffff; 
+  height: 97vh; 
+  padding-top: 1rem;
 }
 .sidebar .nav-link:hover{
-  /* font-weight: bold; */
+
   color: white;
 }
 
 .sidebar .nav-link {
-  color: #ffffff; /* White color for nav links */
-  padding: 0.75rem 1.25rem; /* Padding for nav links */
+  color: #ffffff; 
+  padding: 0.75rem 1.25rem; 
 }
 
-/* .sidebar .nav-link.active {
-  background-color: #495057; /* Slightly lighter background for active link */
-  /* border-radius: 0.25rem; Rounded corners for active link */
-/* } */ */
 
 .main-content {
-  padding: 2rem; /* Padding around the main content */
+  padding: 2rem;
 }
 
 .admin-text {
@@ -762,31 +683,29 @@ h2 {
   box-shadow: 1px 4px 10px rgba(19, 18, 18, 0.1);
   font-size: 2rem;
   margin-top: 0rem !important;
-   /* Larger font size for the admin text */
-  font-weight: bold; /* Bold text for prominence */
+
+  font-weight: bold; 
   padding: 1rem; 
-  /* height: 5rem; */
   border-radius: 1rem;
-  /* text-align: right; Right-align the text */
+  
 }
 
 @media (max-width: 768px) {
   .sidebar {
-    height: auto; /* Adjust height for smaller screens */
+    height: auto; 
   }
   .main-content {
-    padding: 1rem; /* Adjust padding for smaller screens */
+    padding: 1rem; 
   }
 }
 
-/* doctor */
-/* DoctorManagement.css */
+
 .card-custom {
-  background-color: #000; /* Black background */
-  color: #efe6e6;            /* White text color */
+  background-color: #000; 
+  color: #efe6e6;           
   min-width: 20vw;
-  padding: 2rem;        /* Minimum width of the card */
-  height: 250px;          /* Set a fixed height for the cards */
+  padding: 2rem;      
+  height: 250px;         
   display: flex;
   flex-direction: column;
   margin: 1rem;
@@ -795,22 +714,14 @@ h2 {
 }
 
 .card-custom .btn-custom {
-  background-color: #444; /* Dark gray button */
+  background-color: #444;
   border-color: #444;
-  color: #fff;            /* White text on the button */
+  color: #fff;           
 }
 
 .card-custom .btn-custom:hover {
-  background-color: #333; /* Slightly darker on hover */
+  background-color: #333; 
   border-color: #333;
 }
 
 
-
-
-/* admin */
-
-
-/* patient dashboard */
-/* Ensure no vertical scrollbar */
-/* Base styles */
